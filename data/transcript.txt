@@ -1,0 +1,74 @@
+# C in 100 Seconds
+# https://www.youtube.com/watch/U3aXWizDbQ4
+
+00:00:00.240 c a statically typed procedural
+00:00:02.560 programming language famous for making
+00:00:04.560 the world go around it's the language
+00:00:06.399 behind many tools we take for granted
+00:00:08.320 like the windows linux and mac operating
+00:00:10.559 system kernels databases like mysql
+00:00:13.519 interpreters for languages like python
+00:00:15.599 tools like vim and git and countless
+00:00:17.840 others it was created in 1972 by dennis
+00:00:20.560 ritchie at bell labs where it would be
+00:00:22.480 used to develop the unix operating
+00:00:24.320 system it would go on to become the
+00:00:25.840 mother of all languages inspiring the
+00:00:27.680 syntax of c plus c sharp java javascript
+00:00:31.279 perl and php just to name a few it
+00:00:33.440 compiles directly to machine code and
+00:00:35.280 requires minimal runtime support but is
+00:00:37.440 platform dependent meaning the
+00:00:38.879 executable is designed to run on a
+00:00:41.040 specific operating system it's a high
+00:00:42.879 high-level language designed for humans
+00:00:44.800 yet provides low-level control over
+00:00:46.719 memory and hardware there's no garbage
+00:00:48.480 collector instead your code needs to
+00:00:50.399 manage its own memory when you create a
+00:00:51.920 variable it's assigned an address in
+00:00:53.760 memory you can store that address in
+00:00:55.600 another variable called a pointer when
+00:00:57.440 the variable is no longer needed you'll
+00:00:59.039 need to free it to avoid memory leaks to
+00:01:01.359 get started install ac compiler a
+00:01:03.680 popular choice is the gnu c compiler or
+00:01:06.159 gcc create a file ending in dot c
+00:01:08.720 include any libraries you plan to use
+00:01:10.560 then add a main function to it this is
+00:01:12.479 where your program will start executing
+00:01:14.240 there's no function keyword and notice
+00:01:16.000 how it returns an integer type a return
+00:01:18.320 value of 0 means success while a return
+00:01:20.560 value of 1 means failure there are only
+00:01:22.720 a few basic types in c create a variable
+00:01:24.960 by starting with a type followed by a
+00:01:26.799 name and value use printf to print the
+00:01:29.439 value to the standard output or put an
+00:01:31.439 ampersand in front of it to reference
+00:01:33.200 its address in memory there's no string
+00:01:35.200 type but instead char which represents a
+00:01:37.600 one byte character stored as an integer
+00:01:39.759 a string can be created with an array of
+00:01:41.759 characters each letter will have its own
+00:01:43.439 memory address and be terminated by a
+00:01:45.600 null character another approach is to
+00:01:47.759 start with a pointer by adding a star
+00:01:49.680 character in front of the type then we
+00:01:51.360 can allocate 4 bytes to it now assign a
+00:01:53.840 character to each index ending with the
+00:01:56.000 null character to create a string when
+00:01:57.680 you no longer need that memory allocated
+00:01:59.439 to your program use free to release it
+00:02:01.600 back to the computer's ram the language
+00:02:03.759 is procedural and does not support
+00:02:05.600 object oriented features although you
+00:02:07.360 can create your own complex data types
+00:02:09.280 using structs now compile your code to
+00:02:11.280 machine instructions for your operating
+00:02:13.040 system using the c compiler this has
+00:02:15.120 been the c programming language in 100
+00:02:17.360 seconds hit the like button and
+00:02:18.720 subscribe if you want to see more short
+00:02:20.720 videos like this thanks for watching and
+00:02:22.800 i will see you in the next one
