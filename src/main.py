@@ -1,6 +1,19 @@
+# from flask import Flask, request, jsonify
+# from flask_cors import CORS
+
+# app = Flask(__name__)
+# CORS(app)
+
+# @app.route('/transcribe', methods=['POST'])
+# def transcribe():
+#     data = request.json
+#     transcription = data['transcription']
+#     return jsonify({'message': 'Audio file received'})
+
 import json
 from pathlib import Path
 from ollama import Client
+
 
 # Initialize Ollama client
 ollama = Client()
@@ -47,7 +60,7 @@ def save_to_json(output_path, summary, quiz):
 def main():
     config = read_config('res/config.json')
 
-    text = read_transcript(config['transcript_path'])
+    text = read_transcript('transcript.txt')
     summary, quiz = generate_summary_and_quiz(
         text,
         config.get('summary_prompt', 'Summarize the following text:'),

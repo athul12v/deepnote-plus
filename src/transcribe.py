@@ -1,5 +1,6 @@
 import os
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 import whisper
 import soundfile as sf
 import io
@@ -8,6 +9,7 @@ from collections import Counter
 from scipy.signal import butter, lfilter
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the Whisper model (adjust the model size if needed: tiny, base, small, medium, large)
 model = whisper.load_model("base")
