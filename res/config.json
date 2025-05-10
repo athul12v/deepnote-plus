@@ -1,0 +1,10 @@
+
+{
+    "transcript_path": "data/transcript.txt",
+    "output_path": "data/output.json",
+    "model": "llama3.2:latest",
+    "num_questions": 5,
+    "summary_prompt": "Summarize the following text:",
+    "quiz_prompt": "Generate a quiz from the following text:"
+  }
+  
